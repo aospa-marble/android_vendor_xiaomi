@@ -1601,6 +1601,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/librilqmimiscservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmimiscservices.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/librmsclib1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmsclib1.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
