@@ -1885,26 +1885,25 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.taro.api32 \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
-    AHBF@2.1-service \
-    android.hardware.security.keymint-service-qti-rkp \
-    dataconnection-saidl \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_lahaina_identity \
-    manifest_non_qmaa \
-    manifest_non_qmaa_extn \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    qtiradio-saidl \
-    vendor.dolby.hardware.dms \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss-service \
-    vendor.qti.hardware.limits-service \
-    vendor.qti.hardware.radio.ims \
-    vendor.xiaomi.hardware.displayfeature@1.0-service \
-    vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor.xiaomi.hw.touchfeature@1.0-service \
-    vendor.xiaomi.sensor.citsensorservice@2.0-service \
-    vendor.xiaomi.sensor.communicate@1.0_manifest
+    AHBF@2.1-service.xml \
+    android.hardware.security.keymint-service-qti-rkp.xml \
+    dataconnection-saidl.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_lahaina_identity.xml \
+    manifest_non_qmaa.xml \
+    manifest_non_qmaa_extn.xml \
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
+    qtiradio-saidl.xml \
+    vendor.dolby.hardware.dms.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss-service.xml \
+    vendor.qti.hardware.limits-service.xml \
+    vendor.qti.hardware.radio.ims.xml \
+    vendor.xiaomi.hardware.displayfeature@1.0-service.xml \
+    vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
+    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
+    vendor.xiaomi.sensor.citsensorservice@2.0-service.xml \
+    vendor.xiaomi.sensor.communicate@1.0_manifest.xml
