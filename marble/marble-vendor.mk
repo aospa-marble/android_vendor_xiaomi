@@ -1756,8 +1756,8 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
     AHBF@2.1-service.xml \
     android.hardware.security.keymint-service-qti-rkp.xml \
