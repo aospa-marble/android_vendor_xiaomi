@@ -6116,7 +6116,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxcommonutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libprocessgroup", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libprocessgroup_shim", "libc++", "libcutils", "liblog", "libprocessgroup", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8737,7 +8737,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libdmabufheap", "libnativewindow", "libprocessgroup", "libcom.xiaomi.pluginutils", "libcom.xiaomi.metadatautils", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libcamlog", "libutilscallstack", "libc", "libm", "libdl", ],
+			shared_libs: ["libprocessgroup_shim", "libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libdmabufheap", "libnativewindow", "libprocessgroup", "libcom.xiaomi.pluginutils", "libcom.xiaomi.metadatautils", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libcamlog", "libutilscallstack", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
